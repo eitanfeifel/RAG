@@ -24,15 +24,16 @@ This project is a Contextual Question-Answering (QA) system that utilizes semant
 
 ### 1. Clone the Repository
 
-git clone https://github.com/username/...
+git clone https://github.com/eitanfeifel/RAG.git
 
 ### 2. Set Up Virtual Environment and Install Dependencies
 python -m venv venv
-source venv/bin/activate  # Use `.venv\Scripts\activate` on Windows
+source venv/bin/activate (MacOS/Linux)
+.venv\Scripts\activate` (Windows)
 pip install -r requirements.txt
 
 ### 3. Set Up API-KEY
-setx API_KEY "YOUR_API_KEY" (windows)
+setx API_KEY "YOUR_API_KEY" (windows) *Use set instead of setx for temporary use, with setx be sure do close and restart terminal*
 export API_KEY="YOUR_API_KEY" (MacOS/linux)
 
 ### 4. Run Scripts
