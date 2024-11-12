@@ -34,6 +34,7 @@ pip install -r requirements.txt
 
 ### 3. Set Up API-KEY
 setx API_KEY "YOUR_API_KEY" (windows) *Use set instead of setx for temporary use, with setx be sure do close and restart terminal*
+
 export API_KEY="YOUR_API_KEY" (MacOS/linux)
 
 ### 4. Run Scripts
