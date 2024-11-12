@@ -38,8 +38,9 @@ setx API_KEY "YOUR_API_KEY" (windows) *Use set instead of setx for temporary use
 export API_KEY="YOUR_API_KEY" (MacOS/linux)
 
 ### 4. Run Scripts
-python upload_embeddings.py (Upload and Process Documents: Run upload_embeddings.py to select files, preprocess, chunk, and store embeddings.)
-python query.py (Query the System: Run query.py to enter a question, retrieve relevant context, and get an AI-generated answer.)
+python upload_embeddings.py -- (Upload and Process Documents: Run upload_embeddings.py to select files, preprocess, chunk, and store embeddings.)
+
+python query.py -- (Query the System: Run query.py to enter a question, retrieve relevant context, and get an AI-generated answer.)
 
 ## Customization Guide
 
